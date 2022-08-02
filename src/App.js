@@ -1,4 +1,6 @@
 import "./App.css"
+import "bootstrap/dist/css/bootstrap.min.css"
+import CarouselHero from "./components/Carousel/CarouselHero"
 import Header from "./components/Header/Header"
 
 function App() {
@@ -6,6 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Header />
+        <CarouselHero />
       </header>
     </div>
   )
