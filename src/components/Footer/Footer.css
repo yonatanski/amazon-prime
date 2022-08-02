@@ -1,0 +1,15 @@
+.footerr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text>p>:nth-child(1){
+    color: #01a3db ;
+    font-weight: bold;
+}
+
+.footer-text>p>:nth-child(2){
+    color: rgba(255, 255, 255, 0.45) ;
+    font-weight: bold;
+}

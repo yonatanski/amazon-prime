@@ -1,0 +1,19 @@
+.title-movielist{
+    gap:0.5rem
+}
+.prime-badge_movielist{
+    position: absolute;
+    left: 0.25rem;
+    top: 0;
+}
+.title-movielist>h4 {
+    font-size: 19px;
+    color: white;
+  }
+  
+  @media (max-width: 575px) {
+    .title-movielist>h4 {
+      font-size: 12px;
+    }
+  }
+  
