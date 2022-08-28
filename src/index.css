@@ -5,7 +5,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  opacity: 0;
+ animation: fade-in 2s 1s forwards;    /*forwards to tell animation stay at end result */
   
+  
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+
+  }
+  to{
+    opacity: 1;
+  }
+
 }
 
 code {
